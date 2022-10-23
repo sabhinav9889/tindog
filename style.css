@@ -1,0 +1,131 @@
+/* title */
+#title{
+    background-color: #ff4c68;
+    text-align: left;
+}
+#title .container-fluid{
+    padding: 3% 15% 7%;
+}
+@media screen and ( max-width:1024px) {
+    #idimg{
+        position: static;
+        transform: rotate(0);
+    }
+    .col-lg-6{
+        text-align: center;
+    }
+}
+body{
+    font-family: 'Montserrat-light', sans-serif;
+    text-align: center;
+}
+#idimg{
+    width: 19%;
+    transform: rotate(25deg);
+    position: absolute;
+    left: 56rem;
+}
+h1,h2,h3{
+    font-family: "Montserrat-Bold";
+}
+.big-heading{
+    color: white;
+    font-size: 3.5rem;
+    font-weight: bolder;
+    line-height: 1.5;
+}
+h2{
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.5; 
+}
+p{
+    color: grey;
+}
+.container-fluid{
+    padding: 3% 15% 7%  ;
+}
+/* nav-bar */
+.navbar-brand{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+#nav1{
+    padding-bottom: 4.5rem;
+}
+.nav-item{
+    padding: 0 18px;    
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family:'Montserrat-light', sans-serif;
+}
+.btnclss{
+    margin: 5% 3% 5% 0%;
+}
+/* feature section */
+#features{
+    background-color: #fff;
+    position: relative;
+}
+.feature-title{
+    font-family: "Montserrat-Bold";
+    font-size: 2rem;
+}
+.div2s{
+    display: inline-block;
+}
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+/* testimonials section */
+#testimonials{
+    background-color:#ef8172;
+    color: white;
+}
+#image{
+    border-radius: 100%;
+    width: 12%;
+    margin: 20px;
+}
+#press{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+.logo{
+    width: 12%;
+    margin: 20px 20px 50px;
+}
+#carouselExampleSlidesOnly{
+    padding-top: 10rem;
+    padding-bottom: 8rem;
+}
+/* pricing section */
+#pricing{
+    margin: auto;
+    padding: 100px;
+}
+#pricing-col{
+    padding: 5%;
+}
+#cta{
+    background-color:  #ff4c68;
+}
+/* footer */
+#footer{
+    text-align: center;
+}
+ul{
+    list-style: none;
+    margin-right: 30px;
+}
+li{
+    display: inline;
+    padding: 1rem;
+    cursor: pointer;
+}
